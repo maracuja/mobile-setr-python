@@ -1,0 +1,226 @@
+[
+	{
+		"pk": 1,
+		"model": "setr_projects.setrproject",
+		"fields": {
+			"name": "Make the Tea",
+			"created_at": "2011-01-01T12:00:00Z",
+			"visible": true,
+			"client": "Cravendale",
+			"link": "http://www.makethetea.com/",
+			"description": "This is a simple tea round organiser with various distractions built in for idle distraction. People join groups and the site picks who makes the tea. The site is flash sitting in front of a Django REST API. Rabbitmq and Celery are used to queue the emails being sent."
+		}
+	},
+	{
+		"pk": 1,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 1,
+			"image": "uploads/mtt1.jpg"
+		}
+	},
+	{
+		"pk": 2,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 1,
+			"image": "uploads/mtt2.jpg"
+		}
+	},
+	{
+		"pk": 2,
+		"model": "setr_projects.setrproject",
+		"fields": {
+			"name": "Queen Online",
+			"created_at": "2011-01-01T12:00:00Z",
+			"visible": true,
+			"client": "Queen",
+			"link": "http://www.queenonline.com/",
+			"description": "This is a reboot of Queen's website to coincide with the band's 40th Anniversary. The site uses Django-CMS, is supported with various Django modules that hook into memcache and the media files are served through Amazon CloudFront."
+		}
+	},
+	{
+		"pk": 3,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 2,
+			"image": "uploads/qol1.jpg"
+		}
+	},
+	{
+		"pk": 4,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 2,
+			"image": "uploads/qol2.jpg"
+		}
+	},
+	{
+		"pk": 3,
+		"model": "setr_projects.setrproject",
+		"fields": {
+			"name": "Media Molecule Blog",
+			"created_at": "2011-01-01T12:00:00Z",
+			"visible": true,
+			"client": "Media Molecule",
+			"link": "http://www.mediamolecule.com/",
+			"description": "SackBoy WordPress Theme for Media Molecule as part of the launch of their new website to tie in with the release of Little Big Planet."
+		}
+	},
+	{
+		"pk": 5,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 3,
+			"image": "uploads/mm1.jpg"
+		}
+	},
+	{
+		"pk": 6,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 3,
+			"image": "uploads/mm2.jpg"
+		}
+	},
+	{
+		"pk": 4,
+		"model": "setr_projects.setrproject",
+		"fields": {
+			"name": "Ice Station Antarctica",
+			"created_at": "2011-01-01T12:00:00Z",
+			"visible": true,
+			"client": "Natural History Museum",
+			"link": "-",
+			"description": "Deployed using of Struts on Tomcat using JDK v1.4. Hibernate is the ORM layer connecting to MS SQL server. The flash games on the site communicate with the Struts application via XML feeds. The code quality was tested using JUnit and StrutsTestCase."
+		}
+	},
+	{
+		"pk": 7,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 4,
+			"image": "uploads/nhm.isa1.jpg"
+		}
+	},
+	{
+		"pk": 8,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 4,
+			"image": "uploads/nhm.isa2.jpg"
+		}
+	},
+	{
+		"pk": 5,
+		"model": "setr_projects.setrproject",
+		"fields": {
+			"name": "Ready 2 Air",
+			"created_at": "2011-01-01T12:00:00Z",
+			"visible": true,
+			"client": "Channel4 / Style Foundry",
+			"link": "http://www.ready2air.net/",
+			"description": "A video preview site created for channel 4. Developed in the symfony framework and uses phpgacl for fine-grained access to the videos."
+		}
+	},
+	{
+		"pk": 9,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 5,
+			"image": "uploads/r2a1.jpg"
+		}
+	},
+	{
+		"pk": 10,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 5,
+			"image": "uploads/r2a2.jpg"
+		}
+	},
+	{
+		"pk": 6,
+		"model": "setr_projects.setrproject",
+		"fields": {
+			"name": "LSO Beliefs",
+			"created_at": "2011-01-01T12:00:00Z",
+			"visible": true,
+			"client": "London Symphony Orchestra",
+			"link": "http://belief.lso.co.uk/",
+			"description": "An open forum based around the theme of music’s effects on our beliefs. All submissions are moderated. The site is a flash front-end with an Orqi back-end."
+		}
+	},
+	{
+		"pk": 11,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 6,
+			"image": "uploads/lso1.jpg"
+		}
+	},
+	{
+		"pk": 12,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 6,
+			"image": "uploads/lso2.jpg"
+		}
+	},
+	{
+		"pk": 7,
+		"model": "setr_projects.setrproject",
+		"fields": {
+			"name": "West End VIP",
+			"created_at": "2011-01-01T12:00:00Z",
+			"visible": true,
+			"client": "West End VIP",
+			"link": "http://www.westendvip.com/",
+			"description": "Promotion based site with send to friend functionality, PDF generation using FPDF and controlled by a back end CMS. Developed using Orqi."
+		}
+	},
+	{
+		"pk": 13,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 7,
+			"image": "uploads/wev1.jpg"
+		}
+	},
+	{
+		"pk": 14,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 7,
+			"image": "uploads/wev2.jpg"
+		}
+	},
+	{
+		"pk": 8,
+		"model": "setr_projects.setrproject",
+		"fields": {
+			"name": "Online Registration Account Management",
+			"created_at": "2011-01-01T12:00:00Z",
+			"visible": true,
+			"client": "The Institute for Learning",
+			"link": "http://www.ifl.ac.uk/",
+			"description": "Online registration and account management site-section for the Institute for Learning. Built using my PHP framework Orqi, with the ORM layer speaking to an oracle database via a REST API."
+		}
+	},
+	{
+		"pk": 15,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 8,
+			"image": "uploads/ifl1.jpg"
+		}
+	},
+	{
+		"pk": 16,
+		"model": "setr_projects.setrprojectimage",
+		"fields": {
+			"project": 8,
+			"image": "uploads/ifl2.jpg"
+		}
+	}
+]

@@ -1,0 +1,154 @@
+html {
+	background: #e0e0e0;
+	font-family: sans-serif;
+}
+
+body {
+	width: 300px;
+	margin: 0 auto;
+}
+
+header h1 {
+	margin: 0;
+	background: url('/static/images/header.gif');
+	display: block;
+	height: 75px;
+	color: #fff;
+	font-weight: normal;
+	padding: 150px 0 0 10px;
+}
+
+/* slider container */
+.iosSlider {
+	/* required */
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+
+	width: 100%;
+	height: 200px;
+}
+
+/* slider */
+.iosSlider .slider {
+	/* required */
+	width: 100%;
+	height: 100%;
+}
+
+/* slide */
+.iosSlider .slider .slide {
+	/* required */
+	float: left;
+
+	width: 300px;
+	height: 200px;
+}
+
+.iosSlider .slider .intro-slide {
+	display: block;
+	width: 290px;
+	background: #000;
+	color: #fff;
+	padding: 175px 0 0 10px;
+	height: 25px;
+}
+
+/* slider container */
+.iosSlider2 {
+	/* required */
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+
+	width: 100%;
+	height: 150px;
+}
+
+/* slider */
+.iosSlider2 .slider {
+	/* required */
+	width: 100%;
+	height: 100%;
+}
+
+/* slide */
+.iosSlider2 .slider .slide {
+	/* required */
+	float: left;
+
+	width: 150px;
+	height: 150px;
+}
+
+.iosSlider2 .slider .intro-slide {
+	padding: 105px 0 0 10px;
+	background: #000;
+	color: #fff;
+	height: 45px;
+	display: block;
+}
+
+/* slider container */
+.iosSlider3 {
+	/* required */
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+
+	width: 100%;
+	height: 150px;
+}
+
+/* slider */
+.iosSlider3 .slider {
+	/* required */
+	width: 100%;
+	height: 100%;
+}
+
+/* slide */
+.iosSlider3 .slider .slide {
+	/* required */
+	float: left;
+	font-size: 22pt;
+
+	width: 310px;
+	height: 150px;
+}
+
+/* slider container */
+.iosSlider4 {
+	/* required */
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+
+	width: 100%;
+	height: 230px;
+}
+
+/* slider */
+.iosSlider4 .slider {
+	/* required */
+	width: 100%;
+	height: 100%;
+}
+
+/* slide */
+.iosSlider4 .slider .slide {
+	/* required */
+	float: left;
+	font-size: 18pt;
+	background: #1dcaff;
+	color: #fff;
+
+	width: 280px;
+	height: 230px;
+	padding: 10px;
+}
+

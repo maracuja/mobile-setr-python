@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="{{static_url}}css/mobile.css" />
+        <meta content="width=300; initial-scale=1; maximum-scale=1" name="viewport">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <!-- iPhone icons -->
+        <link rel="apple-touch-icon-precomposed" href="{{static_url}}images/iphone-icons/homescreen_57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{static_url}}images/iphone-icons/homescreen_72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{static_url}}images/iphone-icons/homescreen_114x114.png">
+
+        <!-- jQuery library -->
+        <script type="text/javascript" src = "{{static_url}}js/jquery-1.6.1.min.js"></script>
+        
+        <!-- iosSlider plugin -->
+        <!--
+            the sliders are done using this lovely plugin
+            http://iosscripts.com/iosslider-jquery-horizontal-slider-for-iphone-ipad-safari/
+        -->
+        <script src = "{{static_url}}js/jquery.iosslider.js"></script>
+        <title>m.SETR</title>
+	</head>
+	<body>
+        <header id="header">
+			<h1>David George Hamilton</h1>
+		</header>
+
+        <!-- PROJECTS SLIDER -->
+        <div class='iosSlider'>
+            <div class='slider'>
+                <div class='slide'>
+                    <div class='intro-slide'>Stuff I have done >></div>
+                </div>
+                {% for projectimage in projectimages %}
+                    <div class='slide'><img width="300" src="{{media_url}}{{ projectimage }}" alt="Screenshot of Make the Tea site" /></div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- INSTAGRAM SLIDER -->
+        <div class='iosSlider2'>
+            <div class='slider'>
+                <div class='slide'>
+                    <div class='intro-slide'>I'm maracuja on instagram</div>
+                </div>
+                {% for instagram in instagrams %}
+                <div class='slide'><img src="{{ instagram.thumbnail_image }}" alt="{{ instagram.caption }}"></div>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% comment %}
+        <div class='iosSlider3'>
+            <div class='slider'>
+                <div class = 'slide'>I like running >></div>
+                <div class = 'slide'>7.02km - 2012-05-06 08:18 - sportwatch</div>
+            </div>
+        </div>
+        {% endcomment %}
+        
+        <!-- TWITTER SLIDER -->
+        <div class='iosSlider4'>
+            <div class='slider'>
+                <div class='slide'>
+                    <div class='intro-slide'>SOME OF MY BEAUTIFUL WISDOM FROM TWITTER @maracuja</div>
+                </div>
+                {% for tweet in tweets %}
+                <div class='slide'>{{ tweet.text }}</div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+
+                /* basic - default settings */
+                $('.iosSlider').iosSlider({
+                    snapToChildren: true,
+                    scrollbar: false,
+                    scrollbarHide: true,
+                    desktopClickDrag: true
+                });
+
+                /* basic - default settings */
+                $('.iosSlider2').iosSlider({
+                    snapToChildren: true,
+                    scrollbar: false,
+                    scrollbarHide: true,
+                    desktopClickDrag: true
+                });
+
+                /* basic - default settings */
+                // $('.iosSlider3').iosSlider({
+                //     snapToChildren: true,
+                //     scrollbar: false,
+                //     scrollbarHide: true,
+                //     desktopClickDrag: true
+                // });
+
+                /* basic - default settings */
+                $('.iosSlider4').iosSlider({
+                    snapToChildren: true,
+                    scrollbar: false,
+                    scrollbarHide: true,
+                    desktopClickDrag: true
+                });
+            });
+        </script>
+	</body>
+</html>

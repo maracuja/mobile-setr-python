@@ -1,0 +1,13 @@
+<ul>
+	{% for tweet in tweets %}
+		<li>
+		{{ tweet.id_str }}
+		- 
+		{{ tweet.created_at }}
+		- 
+		{{ tweet.text }}
+		-
+		{{ tweet.user.screen_name }}
+		</li>
+	{% endfor %}
+</ul>
